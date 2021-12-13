@@ -1,0 +1,45 @@
+.win {
+  color: green
+}
+
+.lose {
+  color: maroon;
+}
+
+body {
+  font-family: sans-serif;
+  width: auto;
+  height: 100%;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  
+}
+
+#containerAll {
+  border: 1px solid black;
+  padding: 20px 30px;
+  border-radius: 5px;
+  
+}
+
+#btnContainer {
+  margin-top: 13px;
+}
+
+button {
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(214, 214, 214);
+  padding: 6px 15px;
+}
+
+button:hover {
+  background-color: rgb(184, 184, 184);
+}
+
+#scoreContainer, #inputContainer {
+  text-align: center;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Score Keeper App</title>
+</head>
+
+<body>
+
+  <section id="container">
+    <div id="containerAll">
+      <div id="scoreContainer">
+        <h1><span id="p1">0</span> to <span id="p2">0</span></h1>
+        <p>Use the buttons below to keep score:</p>
+      </div>
+
+      <div id="inputContainer">
+        <form action="">
+          <label for="endScore">Playing to:</label>
+          <select name="endScore" id="endScore">
+            <option value="5">5</option>
+            <option value="10">10</option>
+            <option value="15">15</option>
+            <option value="20">20</option>
+          </select>
+        </form>
+
+        <div id="btnContainer">
+          <button id="addP1Btn">+1 Player One</button>
+          <button id="addP2Btn">+1 Player Two</button>
+          <button id="resetBtn">Reset</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
